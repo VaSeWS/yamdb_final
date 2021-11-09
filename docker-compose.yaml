@@ -8,7 +8,8 @@ services:
     env_file:
       - .env
   web:
-    image: vasews/api_yamdb
+    build: .
+    # image: vasews/api_yamdb:latest
     restart: always
     ports:
       - "8000:8000" 
