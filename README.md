@@ -1,3 +1,4 @@
+![Main workflow](https://github.com/VaSeWS/yamdb_final/actions/workflows/yamdb_workflow.yaml/badge.svg)
 # Проект YaMDb
 *Описание взято из репозитория коммандного проекта: https://github.com/mob25/api_yamdb*
 
