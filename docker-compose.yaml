@@ -8,11 +8,8 @@ services:
     env_file:
       - .env
   web:
-    build: .
-    # image: vasews/api_yamdb:latest
+    image: vasews/api_yamdb:latest
     restart: always
-    ports:
-      - "8000:8000" 
     volumes:
       - static_value:/code/static/
       - media_value:/code/media/
